@@ -11,7 +11,7 @@
 // ############################################################################
 // Note that port 80 will throw a "Error: listen EACCES 0.0.0.0:80" excemption
 // on your local machine, for testing use another port such as 3000
-var iPortNum = 80;
+var iPortNum = 3080;
 
 var express = require('express');
 var app = express();
