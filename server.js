@@ -18,7 +18,7 @@ var app = express();
 
 // Routes
 app.get('/', function (req, res) {
-  res.send('Hello World! [from testapp with release]');
+  res.send('Hello World! [from testapp with docker release]');
 });
 
 // Create the server
