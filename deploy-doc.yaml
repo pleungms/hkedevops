@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hkedevops
-        image:docker.io/pleungms/hkedevops:$BUILD_ID
+        image: docker.io/pleungms/hkedevops:$BUILD_ID
         ports:
         - containerPort: 3080
 ---
